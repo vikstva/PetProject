@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Mono&family=Inter&display=swap');
+
+html {
+  font-size: 16px;
+  background: #000000;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 140px 0 140px;
+}
+
+.header__menu {
+  font-size: 1rem;
+  font-family: 'DM Mono', monospace;
+  color: white;
+}
+
+.header__menu--inner {
+  margin-left: 40px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__links--image {
+  margin-left: 10px;
+}
+
+.first-section {
+  display: flex;
+}
+
+.title__wrapper {
+  width: 40%;
+  padding: 8vw 5vw;
+}
+
+.first-section__title {
+  color: white;
+  font-family: Audiowide;
+  font-weight: 400;
+  font-size: 3.5vw;
+}
+
+.first-section__description {
+  color: white;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 1vw;
+  margin: 3vw 0 6vw;
+}
+
+.first-section__banner {
+  width: 60%;
+}
+
+.first-section__banner--image {
+  width: 100%;
+}
+
+.first-section__button {
+  background-color: rgba(141, 253, 27, 1);
+  font-family: 'DM Mono';
+  height: 3.5vw;
+  width: 14vw;
+  padding-bottom: 0.8vw;
+  font-size: 1vw;
+}
+
+.second-section {
+  display: flex;
+  margin: 5vw 7vw;
+  color: white;
+}
+
+.second-section__banner--text {
+  color: white;
+  font-family: 'Audiowide';
+  font-size: 2.5vw;
+} 
+
+.second-section__banner {
+  width: 40%;
+}
+
+.second-section__banner--image {
+  margin-left: -5vw;
+  width: 90%;
+  margin-top: 1vw;
+}
+
+.second-section__text {
+  padding: 0 6vw 0 12vw;
+  width: 60%;
+  font-size: 1vw;
+  line-height: 1.5vw;
+}
+
+.second-section__title {
+  font-family: 'DM Mono';
+  color: #8DFD1B;
+  border-left: solid 1px #8DFD1B;
+  padding: 0 1vw;
+  font-size: 1.3vw;
+}
+
+.second-section__description {
+  font-family: 'Inter';
+}
+
+.second-section__button {
+  color: white;
+  border: solid 1px rgba(141, 253, 27, 1);
+  padding: 0.2vw 1.5vw 0.6vw;
+  background-color: transparent;
+  margin: 2vw 0;
+  font-family: 'DM Mono';
+  font-size: 1vw;
+}
+
+.ticker {
+  color: white;
+  font-family: 'Audiowide';
+  font-size: 4.5vw;
+}
+
+.ticker__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title__wrapper {
+  position: relative;
+}
