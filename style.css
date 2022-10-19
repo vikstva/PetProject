@@ -12,26 +12,44 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 50px 140px 0 140px;
+  margin: 5vw 7vw 0 7vw;
 }
 
 .header__menu {
-  font-size: 1rem;
+  font-size: 1.3vw;
   font-family: 'DM Mono', monospace;
   color: white;
+  width: 50%;
 }
 
 .header__menu--inner {
-  margin-left: 40px;
+  margin-left: 2vw;
 }
 
 .header__container {
   display: flex;
   align-items: center;
+  width: 70%;
 }
 
-.header__links--image {
-  margin-left: 10px;
+.header__logo {
+  width: 50%;
+  max-width: 100px;
+}
+
+.header__logo--image {
+  width: 100%;
+}
+
+.header__links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+.header__menu--inner {
+  text-decoration: none;
+  color: white
 }
 
 .first-section {
@@ -79,6 +97,10 @@ body {
   display: flex;
   margin: 5vw 7vw;
   color: white;
+}
+
+.gallery-block, .first-section__button, .second-section__button {
+  cursor: pointer;
 }
 
 .second-section__banner--text {
@@ -139,4 +161,212 @@ body {
 
 .title__wrapper {
   position: relative;
+}
+
+.third-section {
+  color: white;
+  font-family: 'DM Mono';
+  display: flex;
+  flex-wrap: wrap;
+  margin: 6vw 2vw;
+  width: 96%;
+  font-size: 1vw;
+}
+
+.gallery-block {
+  margin: 1vw;
+  width: 22%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery__image {
+  width: 100%;
+  max-width: 245px;
+}
+
+.gallery__description {
+  margin: 1vw 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.fourth-section__banner {
+  width: 100%;
+}
+
+.fifth-section {
+  color: white;
+  margin: 2vw 0 8vw;
+  position: relative;
+}
+
+.roadmap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.roadmap__headline {
+  font-family: 'Audiowide';
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 4vw;
+  font-size: 2vw;
+}
+
+.roadmap__block {
+  width: 40vw;
+  margin: 0 30vw;
+  background: rgba(34, 34, 34, 1);
+  border: solid rgb(141 253 27 / 61%) 1px;
+  z-index: 1;
+}
+
+.roadmap__block--header {
+  border-bottom: solid rgb(141 253 27 / 61%) 1px;
+  font-family: 'DM Mono';
+  display: flex;
+}
+
+.roadmap__block--number {
+  width: 5vw;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8DFD1B;
+  aspect-ratio: 1/1;
+  margin: 1vw;
+  font-size: 1.5vw;
+}
+
+.roadmap__block2--number {
+  border: solid rgb(141 253 27 / 61%) 1px;
+  color: #8DFD1B;
+  background: rgba(34, 34, 34, 1);
+}
+
+.roadmap__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 100%;
+}
+
+.roadmap__title--description {
+  color: #8DFD1B;
+  font-size: 1vw;
+  width: 100%;
+}
+
+.roadmap__title--main {
+  font-size: 2vw;
+}
+
+.roadmap__block--main {
+  display: flex;
+  margin: 2vw 1vw;
+  font-family: 'Inter';
+  font-size: 0.9vw;
+  width: 94%;
+  justify-content: space-between;
+  line-height: 1.6;
+}
+
+.roadmap__block--text {
+  width: 65%;
+}
+
+.roadmap__text--inner {
+  margin: 0 0 1vw 1vw;
+}
+
+.roadmap__block--image {
+  width: 25%;
+}
+
+.roadmap__image--inner {
+  width: 100%;
+}
+
+.roadmap__line {
+  height: 4vw;
+  border-left: solid rgb(141 253 27 / 61%) 1px;
+  margin: 4vw 0;
+}
+
+.roadmap__circle--image {
+  width: 47%;
+  position: absolute;
+  top: -7vw;
+  left: 3vw;
+}
+
+.roadmap__circle2--image {
+  width: 47%;
+  position: absolute;
+  top: 26vw;
+  right: 3vw;
+}
+
+.footer {
+  background: #42006A;
+  padding: 5vw 7vw;
+  display: flex;
+  color: white;
+  font-family: 'DM Mono';
+  font-size: 1.1vw;
+  line-height: 3vw;
+}
+
+.footer__title {
+  width: 23vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.footer__title-logo {
+  width: 40%;
+}
+
+.footer__navigation {
+  width: 27vw;
+  display: flex;
+}
+
+.footer__text {
+  width: 23vw;
+}
+
+.footer__links {
+  width: 15vw;
+}
+
+.footer__navigation--link{
+  text-decoration: none;
+  color: white;
+  font-size: 1.3vw;
+  display: flex;
+}
+
+.footer__navigation--wrapper {
+  margin-left: 3vw;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__link--inner, .header__menu--inner {
+  width: 20%;
+}
+
+.footer__links--image, .header__links--image {
+  width: 100%;
 }
